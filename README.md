@@ -36,4 +36,10 @@ make -j<NUMBER_OF_CPUS>
 ```
 
 ## Screenshots
+![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/FireGroundTruth.png)
+![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/fire_uncor.png)
 ![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/ground_truth.png)
+![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/pendulum_uncor.png)
+![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/radler_uncor.png)
+![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/rolling_uncor.png)
+
