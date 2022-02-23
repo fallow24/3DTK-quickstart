@@ -34,6 +34,16 @@ Then, install:
 ```shell
 make -j<NUMBER_OF_CPUS>
 ```
+To start, place datasets in the "dat" folder and show them with
+```shell
+bin/show dat/your/dataset -f <FILE_FORMAT> --advanced 
+```
+Refer to [3DTKs svn repository](https://sourceforge.net/p/slam6d/code/HEAD/tree/trunk/) for further guidance and wikipage. 
+
+## Publication
+Yet to be published.
+Authors:
+[Fabian Arzberger](fabian.arzberger@uni-weurzburg.de), [Jasper Zevering](jasper.zevering@uni-weurzburg.de), Dorit Borrmann, Anton Bredenbeck, and Andreas Nüchter
 
 ## Screenshots
 ![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/FireGroundTruth.png)
