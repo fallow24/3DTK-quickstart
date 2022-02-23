@@ -21,7 +21,7 @@ To start, install the following dependencies on your system:
   
 In Debian based systems such as Ubuntu, try the following to install them all:
 ```shell
-sudo apt install cmake cmake-curses-gui build-essentials libboost-all-dev libblas-dev libsuitesparse-dev libopencv-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libwxgtk3.0-gtk3-dev libzip-dev qtbase5-dev libcgal-dev libeigen3-dev libann-dev libnewmat10-devI
+sudo apt install cmake cmake-curses-gui build-essentials libboost-all-dev libblas-dev libsuitesparse-dev libopencv-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libwxgtk3.0-gtk3-dev libzip-dev qtbase5-dev libcgal-dev libeigen3-dev libann-dev libnewmat10-dev
 ```
 
 Install 3DTK as follows:
