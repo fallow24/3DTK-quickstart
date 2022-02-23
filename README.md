@@ -18,10 +18,12 @@ To start, install the following dependencies on your system:
  - ann (libann)
  - freeglut
  - wxgtk3.0 (optional, if you need wxShow viewer)
+ - 
 In Debian based systems such as Ubuntu, try the following to install them all:
 ```shell
 sudo apt install cmake cmake-curses-gui build-essentials libboost-all-dev libblas-dev libsuitesparse-dev libopencv-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libwxgtk3.0-gtk3-dev libzip-dev qtbase5-dev libcgal-dev libeigen3-dev libann-dev libnewmat10-devI
 ```
+
 Install 3DTK as follows:
 ```shell
 svn checkout https://svn.code.sf.net/p/slam6d/code/trunk slam6d-code
@@ -29,19 +31,23 @@ cd slam6d-code
 mkdir .build
 make config 
 ```
+
 Configure your build flags and generate buildfiles ("c" to configure, "g" to generate).
 Then, install:
 ```shell
 make -j<NUMBER_OF_CPUS>
 ```
+
 To start, place datasets in the "dat" folder and show them with
 ```shell
 bin/show dat/your/dataset -f <FILE_FORMAT> --advanced 
 ```
+
 Refer to [3DTKs svn repository](https://sourceforge.net/p/slam6d/code/HEAD/tree/trunk/) for further guidance and wikipage. 
 
 ## Publication
 Yet to be published.
+
 Authors:
 [Fabian Arzberger](fabian.arzberger@uni-weurzburg.de), [Jasper Zevering](jasper.zevering@uni-weurzburg.de), Dorit Borrmann, Anton Bredenbeck, and Andreas Nüchter
 
