@@ -36,4 +36,4 @@ make -j<NUMBER_OF_CPUS>
 ```
 
 ## Screenshots
-![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/ground_truth.eps)
+![Bild](https://github.com/fallow24/unconventional_tajectories_datasets/blob/main/img/ground_truth.png)
