@@ -1,5 +1,8 @@
 # Unconventional tajectories datasets
-Repository that contains 3D point and pose datasets and corresponding ground truth point clouds, using unconventional trajectories such as rolling, pendulum, and descending while rotating.
+Repository that functions as a collection.
+It contains links and instructions for the processing of 3D point and pose datasets with corresponding ground truth point clouds.
+The presented screenshots (see below) were captured from datasets using unconventional trajectories such as rolling, pendulum, and descending while rotating.
+You can find these and more datasets in the [robotics 3D scan repository](http://kos.informatik.uni-osnabrueck.de/3Dscans/).
 
 ## Processing
 We use [3DTK](https://slam6d.sourceforge.io/), which is a toolbox written in C++ for 3D point clouds that comes e.g. with a fast viewer and video creator.
