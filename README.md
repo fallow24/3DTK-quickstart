@@ -1,4 +1,4 @@
-# Unconventional tajectories datasets
+# 3DTK quick install and setup
 Repository that functions as a collection.
 It contains links and instructions for the processing of 3D point and pose datasets with corresponding ground truth point clouds.
 The presented screenshots (see below) were captured from datasets using unconventional trajectories such as rolling, pendulum, and descending while rotating.
@@ -36,11 +36,21 @@ mkdir .build
 make config 
 ```
 
-Configure your build flags and generate buildfiles ("c" to configure, "g" to generate).
+Configure your build flags, such as ROS-, OpenCV-, or 3DConnexion-support, and generate buildfiles ("c" to configure, "g" to generate).
 Then, install:
 ```shell
 make -j<NUMBER_OF_CPUS>
 ```
+
+## ROS support
+
+If you plan on using the toolkits programms with ROS, enable support using ==make config== and check the ==WITH_ROS== flag.
+Make sure you have the following dependencies on your system:
+ - ROS distribution of your choice (kinetic, noetic, ...)
+ - ros-<distro>-tf2-sensor-msgs
+ - orocos-bfl (liborocos-bfl-dev)
+
+## Get started using the 3D toolkit
 
 To start, place datasets in the "dat" folder and show them with
 ```shell
